@@ -32,7 +32,7 @@ function animalsShow({type}){
         className="animals-show"
         >
             <img
-            src={svgMap(type)}
+            src={svgMap[type]}
             alt="animal"
             className="animal"
             />
@@ -44,6 +44,5 @@ function animalsShow({type}){
             />
         </div>
     )
-}
 
-
+export default animalsShow;
