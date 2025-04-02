@@ -44,5 +44,5 @@ function animalsShow({type}){
             />
         </div>
     )
-
-export default animalsShow;
+}
+export default animalsShow 
